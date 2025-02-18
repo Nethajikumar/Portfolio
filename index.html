@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nethaji K - Software Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/nicon.png">
+    
+    
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="#"><img class="titimg" src="img/nn.png" alt="Logo" title="Nethaji" ></a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#edu">Skills</a></li>
+            <li><a href="#proj">Project</a></li>
+            <li><a href="#cont">Contact</a></li>
+          </ul>
+          <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </nav>
+      </header>
+    
+    <div class="container">
+        <div class="text-container">
+            <p class="intro" >Hi, I'm</p>
+            <h1 class="intro"> Nethaji K</h1>
+            <h2 class="cursor typewriter-animation">Software <span style="color: rgb(54, 134, 97);"> Developer</span></h2>
+            <div class="social-icons">
+                <a href="https://drive.google.com/file/d/1BDPegrSwe8e9vDN5Zd3RIjaRpCIc5CBN/view?usp=drivesdk" class="social-icon cv" title="Download CV">
+                    <img src="img/cv.png" alt="CV">
+                </a>
+                <a href="https://www.linkedin.com/in/nethaji-k-9271741b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon linkedin" target="_blank" title="LinkedIn">
+                    <img src="img/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="mailto:nethajikumar2002@gmail.com" class="social-icon whatsapp" target="_blank" title="Gmail">
+                    <img src="img/gmail.png" alt="Gmail">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container1">
+        <div class="about">
+            <h1 class="about1">About</h1>
+            <p class="info" id="#aboutt"> Hi am Nethaji and I am a recent graduate in Master of Computer Science and My area of interest in web development and I possess skills in HTML, CSS, Javascipt, While actively enhancing my proficiency in Java. Currently, I am seeking a role in the  IT field.</p>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="edu" id="edu">
+            <h1 class="edu1">Education</h1>
+            <h4 class="set1">SRM Institute of Science & Technology<button class="btn">2022 - 2024</button></h4>
+            <p class="set2">Master of Science in Computer Science</p>
+            <p class="set2">CGPA : 8.69</p>
+            
+            <h4 class="set1">Muthurangam Arts & Science College<button class="btn1">2019 - 2022</button></h4>
+            <p class="set2">Bachelor of Science in of Computer Science</p>
+            <p class="set2">CGPA : 7.49</p>
+
+            <h4 class="set1">Subramaniya Sastri Hr Sec School <button class="btn1">2018 - 2019</button></h4>
+            <p class="set2">Higher Secondary Education</p>
+            <p class="set2"> 73.5%</p>
+        </div>
+        <div class="skill">
+            <h1 class="sk1">Skills</h1>
+                <img class="img1" src="img/html.png" alt="HTML" title="HTML">
+                <img class="img1" src="img/css.png" alt="CSS" title="CSS">
+                <img class="img1" src="img/bootstrap.png" alt="Bootstrap" title="Bootstrap">
+                <img class="img1" src="img/javascript.png" alt="Javascript" title="Javascipt">
+                <img class="img1" src="img/java.png" alt="Java" title="Java">
+                <img class="img1" src="img/sql.png" alt="SQL" title="SQL">
+                <img class="img1" src="img/visual-studio.png" alt="VS Code" title="VS Code">
+                <img class="img1" src="img/intellij.png" alt="IntelIj" title="IntelIj">
+                <img class="img1" src="img/git.png" alt="Git" title="Git">
+                <img class="img1" src="img/github.png" alt="Github" title="Github">
+                <img class="img1" src="img/solveproblem.png" alt="SP" title="Creative">
+                <img class="img1" src="img/typewriting.png" alt="Typewriting" title="Typewriting">
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="proj">
+            <h1 class="prop" id="proj">Project</h1>
+            <h3 class="prop1">Plant Disease Classification Using Deep Learning <button class="btn1">PG - Project</button></h3>
+            <p class="prop2">The aim of the project is to ensure crop health and maximize agricultural yield production and classify plant diseases using deep learning techniques</p>
+            <p class="p1">Develop a deep learning model to classify plant disease and enhance agricultural productivity</p>
+            <p class="p1">Utilized image recognition techniques to determine crop health status</p>
+            <p class="p1">Implemented using Python and Convolutional Neural Network(CNNs).</p>
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form class="contact-form" action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    
+      <footer style="text-align: center; margin-top: 1px; padding: 20px; background-color: #282c34;">
+         <p class="ff">&copy; 2025 <strong>Nethaji K</strong> <span style="color: red;">&hearts;</span>  Made with Love </p>
+       </footer>
+   
+      
+
+    <script src="css/script.js"></script>
+</body>
+</html>
